@@ -1,0 +1,33 @@
+.token-score {
+    margin-left: 8px;
+    background-color: #ececf1;
+    border-radius: 50px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    color: #343541;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    border: 1px solid #d9d9e3;
+  }
+  
+  .optimize-btn {
+    margin-left: 8px;
+    background: #10a37f;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    transition: background-color 0.2s ease;
+  }
+  
+  .optimize-btn:hover {
+    background-color: #0e8c6a;
+  }
+  
