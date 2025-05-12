@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Text Highlighter for AI Sites",
+    "version": "2.0",
+    "description": "Highlights all text on ChatGPT and Claude in yellow.",
+    "permissions": ["scripting"],
+    "host_permissions": [
+      "https://chat.openai.com/*",
+      "https://claude.ai/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://chatgpt.com/*",
+          "https://claude.ai/*"
+        ],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
